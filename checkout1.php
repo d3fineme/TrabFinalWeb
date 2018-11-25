@@ -11,13 +11,13 @@
   			</div>
   		</div>
   		<div class="row">
-		    <form class="col s10 m10 l10">
+		    <form action="checkout2.php" method="post" class="col s10 m10 l10">
 		      <div class="row">
 		        <div class="input-field col s10 m10 l10 push-l2">
-		          <input id="email" type="email" class="validate">
+		          <input id="email" name="email" type="email" class="validate">
 		          <label for="email">Email</label>
 		          <span class="helper-text" data-error="wrong" data-success="right"></span>
-		          <button class="btn waves-effect waves-light" type="submit" name="action">Verificar
+		          <button class="btn waves-effect waves-light" type="submit">Verificar
 				    <i class="material-icons right">send</i>
 				  </button>
 		        </div>
