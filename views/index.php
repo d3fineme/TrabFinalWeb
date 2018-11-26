@@ -1,13 +1,14 @@
 <?php
-	include 'header.php'
+	include 'header.php';
 ?>
 
-
-	<!-- apresentação de qualquer livro, se clicar numa categoria, aparece os daquela categori, portanto é bom colocar um arquivo showBooks.php -->
-  	<div class="container section">  		
-  		<br><br>
-    	<div class="row">
-	      	<div class="col s12 m12 l12 #f5f5f5 grey lighten-4 z-depth-5">
+	<div class="parallax-container">
+    	<div class="parallax"><img src="../img/banner.jpg"></div>
+  	</div>
+  	<!-- apresentação de qualquer livro, se clicar numa categoria, aparece os daquela categori, portanto é bom colocar um arquivo showBooks.php -->
+  	<div class="container">  		
+		<div class="row">
+	      	<div class="col s12 m12 l12">
 	      		<div class="row">
 	      			<br>
 	      			<div class="col s1 m1 l1">
@@ -63,7 +64,12 @@
 	      	</div>
 	    </div>
     </div>
+	<div class="parallax-container">
+	    <div class="parallax"><img src="../img/banner.jpg"></div>
+	</div>
 
-<?php
-	include 'footer.php'
+    
+
+	<?php
+include 'footer.php'
 ?>

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
         	    <div class="col l6 s12">
-            	    <img src="img/logo.png">
+            	    <img src="../img/logo.png">
 	                <p class="grey-text text-lighten-4">Sua livraria online onde você passa no baldochi.</p>
    		        </div>
         	    <div class="col l4 offset-l2 s12">
@@ -27,7 +27,7 @@
 
 
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="js/materialize.js"></script>
+    <script src="../js/materialize.js"></script>
     <script>
     	// menu mobile
     	$(".button-collapse").sideNav();

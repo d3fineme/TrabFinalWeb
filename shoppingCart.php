@@ -97,6 +97,6 @@ if (isset($bookArray)) {
                }
                ?>
             </table>
-            <p class="centeredText"><a href="index.php">Basic Cart Home</a></p>
+            <p class="centeredText"><a href="views/index.php">Basic Cart Home</a></p>
          </div>
       </div>
