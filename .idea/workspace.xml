@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/conecta.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="518">
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/checkout3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            <state relative-caret-position="501">
+              <caret line="269" column="42" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -97,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/checkout2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="510">
               <caret line="60" column="94" selection-start-line="60" selection-start-column="94" selection-end-line="60" selection-end-column="94" />
             </state>
           </provider>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/views/productPage.php" />
         <option value="$PROJECT_DIR$/views/checkout2.php" />
         <option value="$PROJECT_DIR$/controllers/ctrUser.php" />
-        <option value="$PROJECT_DIR$/views/checkout3.php" />
         <option value="$PROJECT_DIR$/controllers/conecta.php" />
+        <option value="$PROJECT_DIR$/views/checkout3.php" />
       </list>
     </option>
   </component>
@@ -146,8 +146,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1800" />
-    <option name="y" value="-151" />
+    <option name="x" value="-1712" />
+    <option name="y" value="-154" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -233,12 +233,12 @@
       <workItem from="1543258474352" duration="1479000" />
       <workItem from="1543268996528" duration="21526000" />
       <workItem from="1543337778599" duration="18655000" />
-      <workItem from="1543421622151" duration="9764000" />
+      <workItem from="1543421622151" duration="13325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57959000" />
+    <option name="totallyTimeSpent" value="61520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-138" width="1936" height="1056" extended-state="6" />
@@ -369,24 +369,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/conecta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="114" column="55" lean-forward="true" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/checkout2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="510">
           <caret line="60" column="94" selection-start-line="60" selection-start-column="94" selection-end-line="60" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/checkout3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/conecta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="114" column="55" lean-forward="true" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
+        <state relative-caret-position="501">
+          <caret line="269" column="42" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
         </state>
       </provider>
     </entry>
