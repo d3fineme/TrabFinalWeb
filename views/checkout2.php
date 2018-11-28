@@ -1,6 +1,6 @@
 <?php
     require_once '../controllers/ctrUser.php';
-    include '../views/header.php';
+    include 'header.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         if(isset($_POST['email']) && $_POST['email'] != ''){
             $ctrUser = new ctrUser();
@@ -136,5 +136,5 @@
         }
     }
 
-    include '../views/footer.php';
+    include 'footer.php';
 ?>

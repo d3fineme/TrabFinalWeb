@@ -71,7 +71,7 @@ $valorfinal = $valor + $frete;
 //***************************************************
 ?>
 <?php
- include 'C:/xampp/htdocs/TrabFinalWeb/views/header.php';
+ include 'header.php';
 ?>
 <br>
            <div class="container z-depth-3 #e0e0e0 grey lighten-2">
@@ -143,5 +143,5 @@ $valorfinal = $valor + $frete;
            </div>
 <br><br>
    <?php
-    include 'C:/xampp/htdocs/TrabFinalWeb/views/footer.php';
+    include 'footer.php';
 ?>

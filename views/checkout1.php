@@ -1,5 +1,5 @@
 <?php
-	include '../views/header.php';
+	include 'header.php';
 ?>
   	<!-- apresentação de qualquer livro, se clicar numa categoria, aparece os daquela categori, portanto é bom colocar um arquivo showBooks.php -->
   	<br><br><br><br><br><br><br><br>
@@ -14,7 +14,7 @@
 		    <form action="checkout2.php" method="post" class="col s10 m10 l10">
 		      <div class="row">
 		        <div class="input-field col s10 m10 l10 push-l2">
-		          <input id="email" name="email" type="email" class="validate">
+		          <input id="email" name="email" type="email" class="validate" required>
 		          <label for="email">Email</label>
 		          <span class="helper-text" data-error="wrong" data-success="right"></span>
 		          <button class="btn waves-effect waves-light" type="submit">Verificar
@@ -28,5 +28,5 @@
 <br><br><br><br><br><br><br><br>
 
 	<?php
-		include '../views/footer.php';
+		include 'footer.php';
 	?>

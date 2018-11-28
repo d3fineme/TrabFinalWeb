@@ -1,5 +1,5 @@
 <?php
-    require_once 'C:/xampp/htdocs/TrabFinalWeb/controllers/ctrBook.php';
+    require_once '../controllers/ctrBook.php';
 ?>
 <!DOCTYPE html>
 <html>

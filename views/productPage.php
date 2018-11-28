@@ -1,5 +1,5 @@
 <?php
-    include '../views/header.php';
+    include 'header.php';
     require_once '../controllers/ctrBook.php';
     if(isset($_GET['isbn'])) {
         $ctrBook = new ctrBook();
@@ -40,5 +40,5 @@
         </div>
         <?php
     }
-    include '../views/footer.php';
+    include 'footer.php';
 ?>

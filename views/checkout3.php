@@ -63,10 +63,10 @@ $frete = (($totalbooks-1)*5)+10;
 
 $valorfinal = $valor + $frete;
 setcookie("myCart2", '', time() - 3600);
-include '../views/header.php';
+include 'header.php';
 
 $ctrUser = new ctrUser();
-
+//verifica se o user ja ta cadastrado
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if($_POST['acao'] == 1) {
         if($_POST['email'] != $_POST['atualizacao']){
@@ -130,6 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             <p><strong>Valor final: </strong><?php echo number_format($valorfinal,2); ?></p>
             </div>
             </div>
+            <!-- em baixo é o código de corpo do email -->
             <?php
             $headers = "From: TechBook <felipe.unifei.sin@gmail.com> \r\n";
             $headers .= "MIME-Version: 1.0\r\n";
@@ -266,6 +267,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                     <p><strong>Valor final: </strong><?php echo number_format($valorfinal, 2); ?></p>
                 </div>
             </div>
+            <!-- em baixo é o código de corpo do email -->
             <?php
             $headers = "From: TechBook <felipe.unifei.sin@gmail.com> \r\n";
             $headers .= "MIME-Version: 1.0\r\n";
@@ -327,5 +329,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     }
 }
 
-include '../views/footer.php';
+include 'footer.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-	include 'C:/xampp/htdocs/TrabFinalWeb/views/header.php';
-	require_once 'C:/xampp/htdocs/TrabFinalWeb/controllers/ctrBook.php';
+	include 'header.php';
+	require_once '../controllers/ctrBook.php';
 	$ctrBook = new ctrBook();
 	$res = $ctrBook->livros();
 	$isbn = [];
@@ -76,5 +76,5 @@
     
 
 	<?php
-include 'C:/xampp/htdocs/TrabFinalWeb/views/footer.php'
+include 'footer.php'
 ?>

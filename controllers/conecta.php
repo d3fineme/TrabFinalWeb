@@ -1,12 +1,12 @@
 <?php
-	require_once 'C:/xampp/htdocs/TrabFinalWeb/vendor/idiorm.php';
+	require_once '../vendor/idiorm.php';
 	ORM::configure('mysql:host=localhost;dbname=sandvigbookstore');
 	ORM::configure('username', 'root');
 	ORM::configure('password', '');
     ORM::configure('id_column_overrides', array(
         'bookcustomers' => 'custID'
     ));
-	require_once 'C:/xampp/htdocs/TrabFinalWeb/modals/usuario.php';
+	require_once '../modals/usuario.php';
 
 	class conecta{
 		public function buscaEmail($email){
