@@ -21,10 +21,10 @@
 		    return $res;
         }
 
-        public function atualizaUser($email, $name, $sobrenome, $street, $city, $state, $zip){
+        public function atualizaUser($email, $name, $sobrenome, $street, $city, $state, $zip,$oldemail){
 		    $db = new conecta();
 		    $user = new usuario($email, $name, $sobrenome, $street, $city, $state, $zip);
-		    $res = $db->atualizaUser($user);
+		    $res = $db->atualizaUser($user,$oldemail);
 		    return $res;
         }
 	}

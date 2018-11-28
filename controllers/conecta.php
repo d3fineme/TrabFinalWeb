@@ -3,6 +3,9 @@
 	ORM::configure('mysql:host=localhost;dbname=sandvigbookstore');
 	ORM::configure('username', 'root');
 	ORM::configure('password', '');
+    ORM::configure('id_column_overrides', array(
+        'bookcustomers' => 'custID'
+    ));
 	require_once 'C:/xampp/htdocs/TrabFinalWeb/modals/usuario.php';
 
 	class conecta{
@@ -100,8 +103,12 @@
             return $userbd;
         }
 
-        public function atualizaUser(usuario $user){
-		    $userbd = ORM::forTable('bookcustomers')->findOne($user['email']);
+        public function atualizaUser(usuario $user, $oldemail){
+		    $user1 = ORM::forTable('bookcustomers')
+                ->where('email', $oldemail)
+                ->findOne();
+            $userbd = ORM::forTable('bookcustomers')
+                ->findOne($user1['custID']);
 		    $userbd->set('fname', $user->getName());
 		    $userbd->set('lname', $user->getSobrenome());
             $userbd->set('email', $user->getEmail());

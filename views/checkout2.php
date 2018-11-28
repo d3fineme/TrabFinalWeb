@@ -58,6 +58,7 @@
 			          	<label for="cep">CEP</label>
 			        </div>
 		      	</div>
+                <input id="atualizacao" name="atualizacao" value="<?php echo $email ?>" hidden>
                 <input id="acao" name="acao" type="text" value="1" hidden>
 		      	<div class="row">
 			      	<button class="btn waves-effect waves-light" type="submit" name="action">Faça seu pedido!

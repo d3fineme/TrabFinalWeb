@@ -66,10 +66,15 @@ setcookie("myCart2", '', time() - 3600);
 include '../views/header.php';
 
 $ctrUser = new ctrUser();
-$res = $ctrUser->buscaEmail($_POST['email']);
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if($_POST['acao'] == 1) {
-
+        if($_POST['email'] != $_POST['atualizacao']){
+            $ctrUser->atualizaUser($_POST['email'], $_POST['name'], $_POST['sobrenome'], $_POST['street'], $_POST['city'], $_POST['state'], $_POST['zip'], $_POST['atualizacao']);
+        }else{
+            $ctrUser->atualizaUser($_POST['email'], $_POST['name'], $_POST['sobrenome'], $_POST['street'], $_POST['city'], $_POST['state'], $_POST['zip'], $_POST['email']);
+        }
+        $res = $ctrUser->buscaEmail($_POST['email']);
         ?>
         <!-- apresentação de qualquer livro, se clicar numa categoria, aparece os daquela categori, portanto é bom colocar um arquivo showBooks.php -->
         <br><br><br><br><br><br><br><br>
