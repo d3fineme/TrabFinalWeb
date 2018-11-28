@@ -1,5 +1,5 @@
 <?php
-    require_once '../controllers/ctrBook.php';
+    require_once 'C:/xampp/htdocs/TrabFinalWeb/controllers/ctrBook.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,8 +26,13 @@
 		      	</a>
 
 		      	<ul id="nav-mobile" class="right hide-on-med-and-down">
-			        <li><input type="text" placeholder="Pesquisar" style="width: 200px;"><i class="material-icons right">search</i></li>
-			        <li><a href="#"><i class="material-icons right">shopping_cart</i>Carrinho</a></li>
+			        <li>
+                        <form action="SearchBrowse.php" method="get">
+                            <input type="text" placeholder="Pesquisar" style="width: 200px;" name="search">
+                            <button type="submit" class="btn waves-effect waves-light">search</button>
+                        </form>
+                    </li>
+			        <li><a href="shoppingCart.php"><i class="material-icons right">shopping_cart</i>Carrinho</a></li>
 			        <li><a href="checkout1.php"><i class="material-icons right">person_outline</i>Usuário</a></li>
 			        <li><a class="dropdown-button" data-activates="dropdown" href="#" data-beloworigin="true"><i class="material-icons right">arrow_drop_down</i>Categorias</a></li>
 		      	</ul>
@@ -50,7 +55,7 @@
 	<!-- menu mobile -->
 	<ul id="menu-mobile" class="side-nav">
         <li><input type="text" placeholder="Search.." style="width: 200px;"><i class="material-icons right">search</i></li>
-        <li><a href="#"><i class="material-icons right">shopping_cart</i>Carrinho</a></li>
+        <li><a href="shoppingCart.php"><i class="material-icons right">shopping_cart</i>Carrinho</a></li>
         <li><a href="checkout1.php"><i class="material-icons right">person_outline</i>Usuário</a></li>
         <li><a href="#" data-beloworigin="true"><i class="material-icons right">arrow_drop_down</i>Categorias</a></li>
         <?php

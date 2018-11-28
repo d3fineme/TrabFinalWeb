@@ -1,5 +1,5 @@
 <?php
-	include 'header.php';
+	include '../views/header.php';
 ?>
   	<!-- apresentação de qualquer livro, se clicar numa categoria, aparece os daquela categori, portanto é bom colocar um arquivo showBooks.php -->
   	<br><br><br><br><br><br><br><br>
@@ -28,5 +28,5 @@
 <br><br><br><br><br><br><br><br>
 
 	<?php
-		include 'footer.php';
+		include '../views/footer.php';
 	?>
