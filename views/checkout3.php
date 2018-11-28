@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             </div>
             </div>
             <?php
-            $headers = "From: Felipe Alves <felipe.unifei.sin@gmail.com> \r\n";
+            $headers = "From: TechBook <felipe.unifei.sin@gmail.com> \r\n";
             $headers .= "MIME-Version: 1.0\r\n";
             $headers .= "Content-Type: text/html; charset=UTF-8 \r\n";
             $emaildecompra1 = "<html><body><h4><strong>Número do Pedido: </strong>".$pedido."</h4>
@@ -267,7 +267,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                 </div>
             </div>
             <?php
-            $headers = "From: Felipe Alves <felipe.unifei.sin@gmail.com> \r\n";
+            $headers = "From: TechBook <felipe.unifei.sin@gmail.com> \r\n";
             $headers .= "MIME-Version: 1.0\r\n";
             $headers .= "Content-Type: text/html; charset=UTF-8     \r\n";
             $emaildecompra1 = "<html><body><h4><strong>Número do Pedido: </strong>".$pedido."</h4>
